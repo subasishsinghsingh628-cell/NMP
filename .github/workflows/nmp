@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NMP (No more poor) - Learn & Earn for All</title>
+    <meta name="description" content="Free learning and earning opportunities for orphans, the poor, and those below the poverty line. Powered by helpful AI insights.">
+    <meta name="theme-color" content="#007bff">
+    <link rel="manifest" href="data:application/manifest+json,%7B%22name%22%3A%22NMP%20(No%20more%20poor)%22%2C%22short_name%22%3A%22NMP%22%2C%22description%22%3A%22Free%20learning%20and%20earning%20opportunities%20for%20orphans%2C%20the%20poor%2C%20and%20those%20below%20the%20poverty%20line.%22%2C%22start_url%22%3A%22%2F%22%2C%22display%22%3A%22standalone%22%2C%22background_color%22%3A%22%23f4f4f4%22%2C%22theme_color%22%3A%22%23007bff%22%2C%22icons%22%3A%5B%7B%22src%22%3A%22data%3Aimage%2Fsvg%2Bxml%2C%3Csvg%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%20viewBox%3D%270%200%20100%20100%27%3E%3Ctext%20y%3D%27.9em%27%20font-size%3D%2790%27%3ENMP%3C%2Ftext%3E%3C%2Fsvg%3E%22%2C%22sizes%22%3A%22192x192%22%2C%22type%22%3A%22image%2Fsvg%2Bxml%22%7D%2C%7B%22src%22%3A%22data%3Aimage%2Fsvg%2Bxml%2C%3Csvg%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%20viewBox%3D%270%200%20100%20100%27%3E%3Ctext%20y%3D%27.9em%27%20font-size%3D%2790%27%3ENMP%3C%2Ftext%3E%3C%2Fsvg%3E%22%2C%22sizes%22%3A%22512x512%22%2C%22type%22%3A%22image%2Fsvg%2Bxml%22%7D%5D%7D">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>NMP</text></svg>">
+    <style>
+        body{font-family:'Segoe UI',sans-serif;margin:0;padding:0;background:linear-gradient(135deg,#f4f4f4,#e9ecef);line-height:1.6;transition:background-color .3s,color .3s}body.dark-mode{background:linear-gradient(135deg,#333,#555);color:#f4f4f4}header{background:linear-gradient(135deg,#007bff,#0056b3);color:#fff;text-align:center;padding:30px 20px;box-shadow:0 4px 8px rgba(0,0,0,.2)}nav{background:#333;color:#fff;padding:15px;text-align:center;display:flex;justify-content:center;flex-wrap:wrap}nav a{color:#fff;margin:0 20px;text-decoration:none;padding:8px 12px;font-size:1.1em;border-radius:5px;transition:background-color .3s}nav a:hover{background:#555}section{padding:25px;margin:20px;background:#fff;border-radius:12px;box-shadow:0 4px 10px rgba(0,0,0,.1);transition:transform .2s}body.dark-mode section{background:#444;color:#f4f4f4}section:hover{transform:translateY(-5px)}footer{text-align:center;padding:15px;background:#333;color:#fff}.commission-note{font-size:.9em;color:#666;margin-top:10px}body.dark-mode .commission-note{color:#ccc}button{background:linear-gradient(135deg,#007bff,#0056b3);color:#fff;border:none;padding:12px 25px;border-radius:8px;cursor:pointer;font-size:1em;margin:10px 0;transition:transform .2s}button:hover{transform:scale(1.05)}#dark-mode-toggle{position:fixed;top:20px;right:20px;background:#333;color:#fff;border:none;padding:10px;border-radius:50%;cursor:pointer;font-size:1.2em}#loading{display:none;position:fixed;top:50%;left:50%;transform:translate(-50%,-50%);font-size:1.5em;color:#007bff}.hidden{display:none}@media(max-width:600px){nav a{margin:0 10px;font-size:1em}section{margin:10px;padding:20px}#dark-mode-toggle{top:10px;right:10px}}
+    </style>
+</head>
+<body>
+    <div id="loading">Loading NMP... ð</div>
+    <button id="dark-mode-toggle" onclick="toggleDarkMode()">ð</button>
+    <header>
+        <h1>NMP (No more poor) ð</h1>
+        <p>Free Learning & Earning for Orphans, the Poor, and Those Below Poverty Line â Let's build a better future together!</p>
+    </header>
+    <nav>
+        <a href="#learn">Learn ð</a>
+        <a href="#earn">Earn ð°</a>
+        <a href="#ai-tips">AI Tips ð¤</a>
+        <a href="#about">About</a>
+        <a href="#support">Support</a>
+        <a href="#feedback">Feedback</a>
+    </nav>
+    <section id="learn">
+        <h2>Learn Everything ð</h2>
+        <p>Dive into free courses on skills like coding, business, and crafts. Knowledge is power â start your journey today!</p>
+        <ul>
+            <li><a href="https://www.khanacademy.org" target="_blank">Khan Academy</a> - Math & Science (Great for basics!)</li>
+            <li><a href="https://www.coursera.org" target="_blank">Coursera</a> - Professional Skills (Unlock your potential)</li>
+            <li><iframe width="100%" height="200" src="https://www.youtube.com/embed/videoseries?list=PLrAXtmRdnEQy5K8z8z5z5z5z5z5z5z5z" frameborder="0" allowfullscreen loading="lazy"></iframe> (Sample embedded playlist â replace with your custom courses)</li>
+        </ul>
+    </section>
+    <section id="earn">
+        <h2>Earn Opportunities ð¼</h2>
+        <p>Complete tasks, sell items, or earn via affiliates. 70% of earnings go directly to you; we take 30% commission. Fair and transparent!</p>
+        <div class="commission-note">Example: If you earn $100, you get $70; we get $30. ð¡ Pro tip: Track your progress to stay motivated.</div>
+        <ul>
+            <li><a href="https://www.upwork.com" target="_blank">Freelance Gigs</a> - Build skills and get paid</li>
+            <li><a href="https://www.amazon.com/associates" target="_blank">Affiliate Sales</a> - Earn by sharing what you love</li>
+            <li>Marketplace: [Integrate e-commerce here â e.g., via WooCommerce API for selling crafts]</li>
+        </ul>
+        <button onclick="trackEarnings()">Track My Earnings ð</button>
+        <div id="earnings-display" style="margin-top:10px;font-weight:bold"></div>
+    </section>
+    <section id="ai-tips">
+        <h2>AI Tips from Grok ð¤</h2>
+        <p>As your AI friend, here are some quick, truthful tips to supercharge your learning and earning:</p>
+        <ul>
+            <li>Start small: Pick one skill (e.g., coding) and practice daily â consistency beats talent.</li>
+            <li>Earn smarter: Use free tools like Google Analytics for affiliate tracking to maximize commissions.</li>
+            <li>Stay curious: Ask questions and seek feedback â that's how you grow!</li>
+        </ul>
+        <p>Need more personalized advice? Reach out via email!</p>
+    </section>
+    <section id="about">
+        <h2>About Us ð</h2>
+        <p>Founded by Subasish Singh, we're committed to uplifting lives through education and opportunity. All profits support our mission. Let's end poverty one step at a time!</p>
+        <button onclick="toggleSection('terms')">View Terms of Service</button>
+        <button onclick="toggleSection('privacy')">View Privacy Policy</button>
+        <div id="terms" class="hidden">
+            <h3>Terms of Service</h3>
+            <p><strong>Last Updated:</strong> October 2023</p>
+            <p>Welcome to NMP (No more poor). By using our app, you agree to these terms.</p>
+            <ul>
+                <li><strong>Eligibility:</strong> You must be at least 18 years old to use this service. If you are under 18, do not use this app.</li>
+                <li><strong>Use:</strong> This app is for learning and earning opportunities. Misuse (e.g., illegal activities) is prohibited.</li>
+                <li><strong>Earnings:</strong> We take a 30% commission on earnings. Payouts are subject to verification.</li>
+                <li><strong>Liability:</strong> We are not responsible for third-party links or user actions.</li>
+                <li><strong>Changes:</strong> We may update these terms at any time.</li>
+            </ul>
+            <p>Contact us at subasishsinghsingh628@gmail.com for questions.</p>
+        </div>
+        <div id="privacy" class="hidden">
+            <h3>Privacy Policy</h3>
+            <p><strong>Last Updated:</strong> October 2023</p>
+            <p>At NMP (No more poor), we value your privacy. This policy explains how we collect, use, and protect your data.</p>
+            <h4>Data We Collect</h4>
+            <ul>
+                <li>Personal info: Name, email (for feedback/contact).</li>
+                <li>Earnings data: Stored locally or via backend for tracking (e.g., total earnings, commissions).</li>
+                <li>Usage data: App interactions (via analytics tools like Google Analytics).</li>
+            </ul>
+            <h4>How We Use Data</h4>
+            <ul>
+                <li>To provide services (e.g., earnings tracking).</li>
+                <li>To improve the app and communicate updates.</li>
+                <li>For legal compliance and fraud prevention.</li>
+            </ul>
+            <h4>Data Sharing</h4>
+            <p>We do not sell your data. We may share with trusted partners (e.g., payment processors) only as needed.</p>
+            <h4>Your Rights</h4>
+            <ul>
+                <li>Access, update, or delete your data by contacting us.</li>
+                <li>Opt-out of analytics via browser settings.</li>
+            </ul>
+            <h4>Security</h4>
+            <p>We use encryption and secure servers. However, no system is 100% secure.</p>
+            <p>Contact us at subasishsinghsingh628@gmail.com for privacy concerns.</p>
+        </div>
+    </section>
+    <section id="support">
+        <h2>Support Us ð</h2>
+        <p>Help us grow and help more people! Your donations keep NMP free and impactful.</p>
+        <p><strong>UPI Payment ID:</strong> 9040134428-2@ybl</p>
+        <p>Scan or use this ID in any UPI app (e.g., Google Pay, PhonePe) to contribute. Thank you! ð</p>
+    </section>
+    <section id="feedback">
+        <h2>Feedback ð</h2>
+        <p>We'd love to hear from you! Share your thoughts or suggestions.</p>
+        <form id="feedback-form">
+            <input type="text" id="name" placeholder="Your Name" required style="width:100%;padding:10px;margin:5px 0;border:1px solid #ccc;border-radius:5px">
+            <input type="email" id="email" placeholder="Your Email" required style="width:100%;padding:10px;margin:5px 0;border:1px solid #ccc;border-radius:5px">
+            <textarea id="message" placeholder="Your Message" required style="width:100%;padding:10px;margin:5px 0;border:1px solid #ccc;border-radius:5px;min-height:100px"></textarea>
+            <button type="submit">Submit Feedback</button>
+        </form>
+        <div id="feedback-response" style="margin-top:10px;color:#007bff"></div>
+    </section>
+    <footer>
+        <p>&copy; 2023 NMP (No more poor). Contact: subasishsinghsingh628@gmail.com | Powered by Grok from xAI</p>
+    </footer>
+    <script>
+        // Embedded Service Worker Registration
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register(URL.createObjectURL(new Blob([`
+                const CACHE_NAME = 'nmp-v1';
+                const urlsToCache = ['/', 'index.html'];
+                self.addEventListener('install', event => {
+                    event.waitUntil(caches.open(CACHE_NAME).then(cache => cache.addAll(urlsToCache)));
+                });
+                self.addEventListener('fetch', event => {
+                    event.respondWith(caches.match(event.request).then(response => response || fetch(event.request)));
+                });
+            `], {type: 'application/javascript'})))
+                .then(() => console.log('Service Worker registered'))
+                .catch(err => console.log('Service Worker registration failed', err));
+        }
+
+        // Loading indicator
+        window.addEventListener('load', () => { document.getElementById('loading').style.display = 'none'; });
+
+        function toggleDarkMode() {
+            document.body.classList.toggle('dark-mode');
+            const toggle = document.getElementById('dark-mode-toggle');
+            toggle.textContent = document.body.classList.contains('dark-mode') ? 'âï¸' : 'ð';
+        }
+
+        function trackEarnings() {
+            let earnings = localStorage.getItem('userEarnings') || 0;
+            earnings = parseFloat(prompt('Enter your latest earnings (e.g., 50):', earnings)) || 0;
+            localStorage.setItem('userEarnings', earnings);
+            const yourShare = earnings * 0.7;
+            document.getElementById('earnings-display').textContent = \`Total Earnings: \$\${earnings.toFixed(2)} | Your Share: \$\${yourShare.toFixed(2)} (70%)\`;
+            if (navigator.onLine) {
+                alert("Earnings updated! For full backend integration, we'll add Firebase soon.");
+            } else {
+                alert("Offline mode: Earnings saved locally.");
+            }
+        }
+
+        function toggleSection(id) {
+            const section = document.getElementById(id);
+            section.classList.toggle('hidden');
+        }
+
+        // Feedback form handler
+        document.getElementById('feedback-form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            const name = document.getElementById('name').value;
+            const email = document.getElementById('email').value;
+            const message = document.getElementById('message').value;
+            document.getElementById('feedback-response').textContent = \`Thanks, \${name}! We'll get back to you at \${email}. (For real sending, integrate EmailJS.)\`;
+            this.reset();
+        });
+    </script>
+</body>
+</html>
